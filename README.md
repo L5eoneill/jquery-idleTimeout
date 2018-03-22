@@ -1,10 +1,10 @@
 # jquery-idleTimeout
 
+RECENTLY FORKED. NOT YET READY FOR USE.
+
 Highly configurable idle (no activity) timer and logout redirect for jQuery.
 
 **Functions across multiple browser windows, tabs and, optionally, iframes (single or nested) as long as the iframes meet the '[Same-Origin Policy](http://en.wikipedia.org/wiki/Same-origin_policy)'.**
-
-Listed on [NPM](https://www.npmjs.com/package/jquery-idletimeout) and [JQuery's Plugin site](http://plugins.jquery.com/idleTimeout/).
 
 Requires [Marcus Westin's store.js](https://github.com/marcuswestin/store.js) which uses localStorage, globalStorage and userData behavior to 'communicate' across multiple browser windows & tabs without cookies or flash.
 
@@ -20,7 +20,6 @@ Requires [Marcus Westin's store.js](https://github.com/marcuswestin/store.js) wh
 #### Required Dependencies
 
 * JQuery core - version 1.7 or newer
-* JQuery UI - version 1.9 or newer
 * store.js - [https://github.com/marcuswestin/store.js](https://github.com/marcuswestin/store.js) - version 1.3.4 or newer
 
 #### Functionality
@@ -48,8 +47,8 @@ Requires [Marcus Westin's store.js](https://github.com/marcuswestin/store.js) wh
 
 #### How to Use
 
-* Load the required jQuery dependencies on your website: jQuery core and jQuery UI
-* Download [store.min.js](https://github.com/marcuswestin/store.js) and the appropriate minified jquery-idleTimeout script: jquery-idleTimeout.min.js or jquery-idleTimeout-iframes.min.js
+* Load the required jQuery dependency on your website: jQuery core
+* Download [store.min.js](https://github.com/marcuswestin/store.js) and the appropriate minified jquery-idleTimeout script: jquery-idleTimeout-modaal.min.js or jquery-idleTimeout-modaal-iframes.min.js
 * Upload these .js files and make them available to your website
 * Call the jquery-idleTimeout script in a 'document ready', **`$(document).ready(function ()...`**, function somewhere on your site
 * Configure the `redirectUrl` variable within the 'document ready' function to redirect to your site's logout page
@@ -81,7 +80,7 @@ If user voluntarily logs out of your site with your 'Logout' button (instead of 
 
 #### Iframe Information
 
-If you require activity detection within iframes, use the **jquery-idleTimeout-iframe.min.js** script. 
+If you require activity detection within iframes, use the **jquery-idleTimeout-iframe.min.js** script.
 
 Please read the [Iframe Wiki Page](https://github.com/JillElaine/jquery-idleTimeout/wiki/Iframes---Information-&-Troubleshooting).
 
